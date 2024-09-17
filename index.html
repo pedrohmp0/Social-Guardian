@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- COMEÇO FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FIM FONT -->
+    <!-- CÓDIGO JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"
+        integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- FIM CÓDIGO JS -->
+
+    <!-- CÓDIGO BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP -->
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <!-- FIM SWIPER CSS -->
+
+
+    <link rel="shortcut icon" type="imagex/png" href="image/iconsocialguardian.ico">
+
+    <link rel="canonical" href="https://socialguardian.igsdev.com.br/">
+
+    <script src="menu.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Social Guardian</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="interface-inicio">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logoSite.png" alt="Logo" width="40px">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#colaborar">Colaboradores</a></li>
+                    <li><a href="inteligencia.html">Testar Produto</a></li>
+                </ul>
+            </nav>
+            <div class="contato-botao">
+                <a href="https://forms.gle/RMNAR4iCn9NAeSiB7" target="_blank">
+                    <button>Contato</button>
+                </a>
+            </div> <!-- botao contato-->
+
+            <div id="botao-abrir" class="botao-abrir-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div id="menu-mobile" class="menu-mobile">
+                <div class="botao-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#colaborar">Colaboradores</a></li>
+                        <li><a href="inteligencia.html">Testar Produto</a></li>
+                        <li><a href="https://forms.gle/RMNAR4iCn9NAeSiB7">Contato</a></li>
+
+                    </ul>
+                </nav>
+
+            </div> <!-- menu mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+
+        </div><!--interface-->
+
+
+
+    </header>
+
+    <main>
+        <section id="inicio" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+
+                        <h1>Social Guardian</h1>
+                        <p></p>
+
+                        <div class="contato-botao">
+                            <a href="inteligencia.html">
+                                <button>TESTE I.A</button>
+                            </a>
+                        </div>
+                    </div><!-- txt-topo-side -->
+
+                    <div class="img-topo-site">
+
+                        <img src="image/imagemMain.png" alt="Foto main">
+
+                    </div><!-- img-topo-site -->
+                </div> <!-- flex -->
+            </div> <!-- interface -->
+        </section> <!-- topo-do-site -->
+
+        <section id="sobre" class="video">
+            <div class="flex">
+                <div class="txt-video">
+
+                    <h2>Sobre</h2>
+
+
+                    <div class="video-estilo">
+
+                        <iframe src="https://www.youtube.com/embed/Dl26TJeovGM" frameborder="0"
+                            allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+                            msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+                            webkitallowfullscreen="webkitallowfullscreen"></iframe>
+
+                    </div><!-- txt video -->
+                </div> <!-- video estilo -->
+            </div> <!-- flex -->
+        </section><!-- video -->
+
+        <section id="colaborar" class="colaboradores-estilo">
+            <div class="flex">
+                <div class="txt-colaboradores">
+
+                    <h3>Colaboradores</h3>
+
+
+                </div><!-- txt-colaboradores -->
+
+                <div class="colaboradores">
+
+                    <div class="slide-container swiper">
+                        <div class="slide-content">
+                            <div class="card-wrapper swiper-wrapper">
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="card-image">
+                                            <img src="image/igor-foto.png" alt="" class="card-img card1">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="nome"> Igor Xavier de Brito</h4>
+                                        <p class="descricao">Sou um desenvolvedor Front-end, estou fazendo bacharelado
+                                            no curso de ciências da computação e sou completamente
+                                            apaixonado por tecnologia. Fazer parte desse projeto trouxe muitos desafios
+                                            para mim, mas a cima de tudo, também trouxe muitos aprendizados.
+                                        </p>
+
+                                        <a href="https://www.linkedin.com/in/isxb/" target="_blank" rel="Carlos">
+                                            <button class="button">Ver Mais</button>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <!-- PEDRO -->
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="card-image">
+                                            <img src="image/pedro-foto.png" alt="" class="card-img card2">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="nome"> Pedro Machado</h4>
+                                        <p class="descricao">Sou desenvolvedor e faço superior em Análise e Desenvolvimento de Sistemas.
+                                            Estou contribuindo para o desenvolvimento do Social Guardian. Destaco-me em
+                                            programação, mostrando paixão e dedicação à tecnologia. Foi um prazer fazer
+                                            parte desse desafio.</p>
+
+                                        <a href="https://www.linkedin.com/in/pedro-henrique-machado-8720532ba/"
+                                            target="_blank" rel="Carlos">
+                                            <button class="button">Ver Mais</button>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <!-- KESIA -->
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="card-image">
+                                            <img src="image/kesia-foto.png" alt="" class="card-img card3">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="nome"> Késia Gouvêa</h4>
+                                        <p class="descricao">Sou colaboradora deste projeto, no momento trabalho como
+                                            jovem aprendiz como operador de processos siderúrgicos e participar desse
+                                            projeto tem sido muito importante para mim. Pude conhecer coisas novas e
+                                            aprender mais sobre tecnologia.</p>
+
+                                        <a href="www.linkedin.com/in/kesiagouveaa" target="_blank" rel="Carlos">
+                                            <button class="button">Ver Mais</button>
+                                        </a>
+
+                                    </div>
+                                </div>
+                                <!-- JAMYLLY -->
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="card-image">
+                                            <img src="image/jamylly-foto.png" alt="" class="card-img card4">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="nome"> Jamylly Oliveira</h4>
+                                        <p class="descricao">Sou colaboradara do projeto Social Guardian, o que tem sido
+                                            uma experiência enriquecedora. Tenho um curso técnico em informática. Esse
+                                            projeto está me proporcionando uma enorme oportunidade de aprender e crescer
+                                            ainda mais como profissional.</p>
+
+                                        <a href="https://www.linkedin.com/in/jamylly-oliveira-a3b5a026b"
+                                            target="_blank" rel="Carlos">
+                                            <button class="button">Ver Mais</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- ADRIELLI -->
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="card-image">
+                                            <img src="image/adrielli-foto.png" alt="" class="card-img card5">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="nome"> Adrelli Beneventes </h4>
+                                        <p class="descricao">Sou colaboradora deste projeto, onde atuo como jovem
+                                            aprendiz em operação de processos siderúrgicos. Além disso, sou tecnóloga em
+                                            informática. Participar deste projeto tem sido um ótimo desafio, pois me
+                                            permite aplicar minhas habilidades e aprender continuamente.</p>
+
+                                            <a href="https://www.linkedin.com/in/adrielli-beneventes-76182b324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                                            target="_blank" rel="Carlos">
+                                            <button class="button">Ver Mais</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- CARLOS -->
+                                <div class="card swiper-slide">
+                                    <div class="image-content">
+                                        <span class="overlay"></span>
+
+                                        <div class="card-image">
+                                            <img src="image/carlos-foto.png" alt="" class="card-img card6">
+                                        </div>
+                                    </div>
+
+                                    <div class="card-content">
+                                        <h4 class="nome"> Carlos Eduardo</h4>
+                                        <p class="descricao">Sou instrutor de automação residencial e industrial,
+                                            elétrica predial e industrial, e mecânica industrial no SENAI.
+                                            Tenho formação técnica em Mecânica pela Firjan Senai e estou cursando
+                                            Bacharelado em Automação Industrial na Estácio. Ser orientador do projeto
+                                            foi gratificante.</p>
+
+                                        <a href="https://www.linkedin.com/in/carlos-eduardo-siqueira-a44920192/"
+                                            target="_blank" rel="Carlos">
+                                            <button class="button">Ver Mais</button>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+
+                    </div>
+
+                </div> <!-- flex -->
+        </section> <!-- colaborador -->
+
+</body>
+
+<!-- SWIPER JS -->
+<script src="js/swiper-bundle.min.js"></script>
+<!-- FIMSWIPER JS -->
+
+<!-- JS -->
+<script src="script.js"></script>
+<!-- FIM JS -->
+
+<footer class="footer">
+
+    <h5>©2024 Todos os direitos reservados.</h5>
+</footer>
+
+</html>
